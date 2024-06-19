@@ -20,11 +20,20 @@ object Form1: TForm1
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 384
+    Left = 454
     Top = 104
     Width = 75
     Height = 25
     Caption = 'Button2'
     TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 120
+    Top = 192
+    Width = 409
+    Height = 121
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 2
   end
 end
